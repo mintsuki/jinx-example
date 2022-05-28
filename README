@@ -1,0 +1,12 @@
+Example Jinx distribution
+=========================
+
+Directories and meaning:
+
+build-support: This is not a Jinx specific name, it's just used for extra files.
+host-recipes: Recipes for packages that will be ran on the host inside the containerised environment.
+patches: Patches that will be applied to the fetched sources.
+recipes: Recipes for packages that will be cross compiled for the target OS.
+source-recipes: Recipes for source-specific fetch information and regeneration.
+
+If jinx is in $PATH, run "jinx build-all" to build all target recipes (and their host dependencies).

@@ -1,0 +1,9 @@
+name=ninja
+version=1.11.0
+source_method=git
+clone_url="https://github.com/ninja-build/ninja.git"
+tag="v${version}"
+
+regenerate() {
+    true
+}

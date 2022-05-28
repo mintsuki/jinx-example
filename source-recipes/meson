@@ -1,0 +1,8 @@
+name=meson
+version=0.62.1
+source_method=tarball
+tarball_url="https://codeload.github.com/mesonbuild/meson/tar.gz/refs/tags/${version}"
+
+regenerate() {
+    true
+}
