@@ -1,8 +1,0 @@
-name=git
-version=2.36.1
-source_method=tarball
-tarball_url="https://mirrors.edge.kernel.org/pub/software/scm/git/git-${version}.tar.xz"
-
-regenerate() {
-    true
-}

@@ -1,7 +1,7 @@
 name=mlibc-headers
 from_source=mlibc
 revision=1
-hostdeps="meson ninja"
+imagedeps="meson ninja"
 
 configure() {
     meson \
