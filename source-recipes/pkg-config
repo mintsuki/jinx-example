@@ -4,7 +4,6 @@ source_method=git
 clone_url="https://gitlab.freedesktop.org/pkg-config/pkg-config.git"
 tag="pkg-config-${version}"
 hostdeps="autoconf automake libtool"
-imagedeps="base-devel"
 
 regenerate() {
     NOCONFIGURE=yes ./autogen.sh

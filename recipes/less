@@ -1,7 +1,6 @@
 name=less
 from_source=less
 revision=1
-imagedeps="base-devel"
 hostdeps="gcc autoconf automake libtool"
 deps="mlibc ncurses"
 

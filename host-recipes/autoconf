@@ -1,7 +1,6 @@
 name=autoconf
 from_source=autoconf
 revision=1
-imagedeps="base-devel"
 
 configure() {
     "${source_dir}"/configure --prefix="${prefix}"

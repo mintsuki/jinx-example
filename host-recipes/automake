@@ -1,8 +1,8 @@
 name=automake
 from_source=automake
 revision=1
+imagedeps="gcc"
 hostrundeps="autoconf"
-imagedeps="base-devel"
 
 configure() {
     "${source_dir}"/configure --prefix="${prefix}"

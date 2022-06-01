@@ -1,9 +1,9 @@
 name=libgcc
 from_source=gcc
 revision=1
+imagedeps="gcc bison flex"
 hostrundeps="gcc-compiler binutils"
 deps="mlibc"
-imagedeps="base-devel"
 
 configure() {
     true
