@@ -1,7 +1,7 @@
 name=binutils
 from_source=binutils
 revision=1
-imagedeps="gcc bison flex"
+imagedeps="gcc"
 hostdeps="automake"
 
 configure() {

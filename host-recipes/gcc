@@ -13,6 +13,5 @@ build() {
 }
 
 install() {
-    mkdir -p "${dest_dir}${prefix}"
     true
 }
